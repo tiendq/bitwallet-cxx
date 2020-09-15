@@ -1,2 +1,10 @@
-# bitwarden-cxx
-Bitwarden for desktop in C++
+# bitwallet-cxx
+
+Build with CMake.
+
+```bash
+$ mkdir build
+$ cd build
+$ cmake -Wdeprecated ..
+$ cmake --build .
+```
