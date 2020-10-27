@@ -11,6 +11,6 @@ Build with CMake.
 ```bash
 $ mkdir build
 $ cd build
-$ cmake -DCMAKE_BUILD_TYPE=Debug -Wdeprecated ..
+$ cmake -DCMAKE_BUILD_TYPE=Debug ..
 $ cmake --build .
 ```

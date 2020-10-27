@@ -3,7 +3,7 @@
 #include <string>
 #include <SQLiteCpp/SQLiteCpp.h>
 
-int main() {
+int main(int argc, char **argv) {
 	std::cout << "Hello CMake!\n";
 
 	try {
@@ -15,6 +15,7 @@ int main() {
 
 		std::string sql = "INSERT INTO test VALUES (NULL, 'first')";
 		int n = db.exec(sql);
+		std::cout << n << "\n";
 	} catch (std::exception const &e) {
     std::cout << "SQLite exception: " << e.what() << "\n";
     return 1;
